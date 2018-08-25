@@ -57,6 +57,16 @@ h4.subHeading {
     font-weight: bold;
 }
 
+#intro:after {
+    content:'';
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:#3333336b;
+}
+
 #navigationBar{
     background-color: #4a0000!important;
 }
