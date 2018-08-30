@@ -57,23 +57,32 @@ h4.subHeading {
     font-weight: bold;
 }
 
-#intro:after {
-    content:'';
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color:#3333336b;
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: .5;
 }
 
 #navigationBar{
+    background-color: #4a000000!important;
+    -webkit-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+}
+
+#navigationBar.navbar-shrink{
+    padding-top: 0;
+    padding-bottom: 0;
     background-color: #4a0000!important;
 }
-#topHeaderNavigationBar{
+
+/*#topHeaderNavigationBar{
     background-color: #20232a!important; 
     color:#fff; 
-}
+}*/
 
 .nav-item > a{
     padding: 28px 25px;
@@ -124,8 +133,8 @@ h4.subHeading {
     background-color:#fff;
     color:#333;   
 }
-#cursos{
-    background-color:#20232a;
+#dinamismo{
+    background-color:#87ceeb;
     color:#fff;
 }
 #contact{
@@ -143,6 +152,10 @@ h4.subHeading {
 
 .card{
     border: none!important;
+}
+
+.navbar-nav{
+    margin-right: 0!important;
 }
 
 @media(max-width: 442px){
