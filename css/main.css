@@ -171,16 +171,13 @@ h4.subHeading {
 .recuo { 
     text-indent:4em;     
     text-align: justify;
-}
-.rounded-circle{
-    filter: grayscale(100%);
-    filter: gray;
-}
-
-i {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+.rounded-circle{
+    filter: grayscale(100%);
+    filter: gray;
 }
