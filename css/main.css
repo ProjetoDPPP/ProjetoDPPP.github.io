@@ -172,3 +172,7 @@ h4.subHeading {
     text-indent:4em;     
     text-align: justify;
 }
+.rounded-circle{
+    filter: grayscale(100%);
+    filter: gray;
+}
