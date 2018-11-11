@@ -168,6 +168,4 @@ h4.subHeading {
     }
 
 }
-p {
-   text-indent: 4em;
-}
+.recuo { text-indent:4em }
