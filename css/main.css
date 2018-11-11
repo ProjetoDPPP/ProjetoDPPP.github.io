@@ -168,4 +168,7 @@ h4.subHeading {
     }
 
 }
-.recuo { text-indent:4em }
+.recuo { 
+    text-indent:4em;     
+    text-align: justify;
+}
